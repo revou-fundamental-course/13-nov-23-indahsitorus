@@ -1,0 +1,310 @@
+* {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  overflow-y: auto;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  height: 350px;
+  background-color:w;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.teksuse {
+  text-align: center; 
+}
+
+.teksuse p {
+  max-width: 650px;
+  margin: 0 auto
+}
+
+section {
+  display: flex;
+}
+
+.circle{
+  width: 40px;
+  height: 40px;
+  background-color: #f1f1f4;
+  color: #7a909f;
+  border-radius: 60%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.teks{
+  max-width: 520px;
+ color:#7a909f ;
+ font-size: 15px;
+}
+
+form {
+  width: 80%;
+  max-width: 400px;
+  background: #add8ee;
+  padding: 30px;
+  margin: 0 28px;
+  border-radius: 2px;
+  box-shadow: inset -2px 2px 2px rgba(255, 255, 255, 0.605);
+}
+
+.label-input {
+  flex-wrap: wrap;
+  width: 100%;
+  padding-bottom: 15px;
+  margin-right: 10px;
+}
+
+.label-input input{
+  width: 70%;
+  padding: 10px;
+  border-radius: 10px;
+  
+}
+
+.label-input center input{
+  width: 70%;
+  padding: 10px;
+  border-radius: 10px;
+  background-color:  #0a2742;
+  color: #fff;
+  
+}
+
+.label-input select {
+  width: 70%;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+
+.container {
+  border: 3px solid;
+  border-color: rgb(234, 243, 243);
+  display: flex;
+  justify-content: flex-end;
+}
+
+.profileImage{
+  width: 200px;
+
+}
+
+.container table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  border-radius: 10px;
+  padding: 8px;
+  text-align: center;
+  font-size: 12px;
+}
+
+article p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spacer{
+  height: 150px;
+}
+
+.Package{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  height: 175px;
+  background: #f1f1f4;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.Package h1{
+  font-size: 35px;
+}
+
+.container-box {
+  position: relative;
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.box-package, .box-kiri, .box-kanan {
+  width: 200px;
+  border: 0px solid #ccc;
+  padding: 10px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box-package img, .box-kiri img, .box-kanan img {
+  width: 30px;
+  height: 30px;
+  background-color: #c2d8e8;
+  color: #fff;
+  border-radius: 60%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: bold;
+  
+
+}
+
+.container-box-lagi {
+  position: relative;
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.box-package-lagi, .box-kiri-lagi, .box-kanan-lagi {
+  width: 200px;
+  border: 0px solid #ccc;
+  padding: 10px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box-package-lagi img, .box-kiri-lagi img, .box-kanan-lagi img {
+  width: 30px;
+  height: 30px;
+  background-color: #c2d8e8;
+  color: #fff;
+  border-radius: 60%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: bold; 
+}
+
+.article  img{
+  width: 30px;
+  height: 30px;
+  background-color: #c2d8e8;
+  color: #fff;
+  border-radius: 60%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  border: 3px solid;
+  border-color: rgb(234, 243, 243);
+  display: flex;
+  justify-content: flex-end;
+}
+
+.wrapper {
+  width: 90%;
+}
+
+.footer-section {
+  width: 50%;
+  margin: 0 auto;
+  
+}
+
+#copyright {
+  text-align: center;
+  width: 100%;
+  padding: 50px 0px 50px 0px;
+  margin-top: 50px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.footer-section h2{
+  font-size: 30px;
+}
+
+.footer-section p{
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 14px;
+  display: flex;
+  width: 500%;
+}
+
+.footer-section input {
+  width: 45%;
+  padding: 10px;
+  border-radius: 3px;
+  background-color: #0a2742;
+  color:white;
+}
+
+@media (max-width: 768px) {
+  body {
+      font-size: 14px;
+  }
+  .container {
+    justify-content: center;
+}
+.label-input input {
+  width: 100%;
+}
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 12px;
+    }
+
+  }
+
+article {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  height: 350px;
+  background-color: white; /* Fix: use a valid color value */
+  justify-content: flex-start;
+  align-items: center;
+}
+
+
+
+
